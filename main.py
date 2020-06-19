@@ -266,20 +266,20 @@ def see_raw_data(df):
             print(df.head())
             interact += 1
     
-       if answer.lower() == 'yes' and interact > 1:
+       if (answer.lower() == 'yes' or answer.lower() == 'y') and interact > 1:
           print("")
           print("Do you want to see the following 5 rows of raw data ?")
           answer = input("Please choose between yes and no (capital letters don't matter):").lower()
        
-       if answer.lower() == 'yes':
+       if answer.lower() == 'yes' or answer.lower() == 'y':
           print("")
           print(df[(interact-1)*5:interact*5])
           interact += 1       
        
-       if answer.lower() == 'no':
+       if answer.lower() == 'no' or answer.lower() == 'n':
           break
           
-       if answer.lower() != 'yes':
+       if answer.lower() != 'yes' and answer.lower() != 'y':
           print("")
           print("You have entered an invalid value, please enter yes or no (capital letters don't matter)")
           answer = 'yes'
