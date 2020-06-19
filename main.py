@@ -13,7 +13,12 @@ valid_months = ['january', 'february', 'march',
 valid_weekdays = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
 
 def isAMonth(s):
+    """
+    Checks if the value s is a valid month
 
+    Returns:
+        (int) month - the month or (boolean) False if the value is invalid
+    """
 
     try:     
         if s in valid_months:
@@ -26,7 +31,12 @@ def isAMonth(s):
         return False
         
 def isAWeekday(s):
+    """
+    Checks if the value s is a valid weekday
 
+    Returns:
+        (int) weekday - the weekday or (boolean) False if the value is invalid
+    """
 
     try:     
         if s in valid_weekdays:
@@ -240,7 +250,11 @@ def trip_duration_stats(df):
 
 
 def see_raw_data(df):
-
+    """
+    Displays 5 rows of raw data until the user confirms 
+    he doesn't want to see the raw data.
+    """
+    
     answer = None
     interact = 1
 
@@ -312,6 +326,8 @@ def user_stats(df):
 
 
 def main():
+    """Main function launched automatically"""
+    
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
