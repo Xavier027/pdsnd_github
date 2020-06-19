@@ -73,8 +73,7 @@ def get_filters():
     city = None
     while city is None or valid_cities.get(city) is None :
        try:
-          print("")
-          print("Valid values are (capital letters don't matter):")
+          print("\nValid values are (capital letters don't matter):")
           print("- c or chicago for Chicago")
           print("- n, ny, nyc, new york and new york city for New York City")
           print("- w or washington for Washington")
@@ -96,8 +95,7 @@ def get_filters():
     month = None
     while month is None or not isAMonth(month) :
        try:
-          print("")
-          print("Valid values are (capital letters don't matter):")
+          print("\nValid values are (capital letters don't matter):")
           print("- all for every month")
           print("- january, february, march... Months written in English")
           print("- 1, 2, 3... Months written as a number, beginning with January as 1")
@@ -125,8 +123,7 @@ def get_filters():
     weekday = None
     while weekday is None or not isAWeekday:
        try:
-          print("")
-          print("Valid values are (capital letters don't matter):")
+          print("\nValid values are (capital letters don't matter):")
           print("- all for all weekdays")
           print("- monday, tuesday, wednesday... Days written in English")
           print("- 1, 2, 3... Weekdays written as a number, with Monday as 1 and Sunday as 7")
