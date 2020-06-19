@@ -6,17 +6,17 @@ Python code to import US bike share data from Motivate for popular cities Washin
 The code answers questions about the data by computing descriptive statistics. Takes in raw input to create an interactive experience in the terminal to present these statistics.
 
 ### Available Filters
-You will asked if you want to filter the data depending on:
-**City**: This filters the data by city
-**Month**: This filters the data by month
+You will asked if you want to filter the data depending on:\
+**City**: This filters the data by city\
+**Month**: This filters the data by month\
 **Weekday**: This filters the data by weekday
 
 ### Results
 You will be asked if you want to see the raw data of the filtered data.\
-The following statistics are shown depending on you choices:
-**The most frequent times of travel**: Most common month, weekday and start hour
-**the most popular stations and trip**: Most commonly used start station, end station and combination of start station and end station trip
-**Total and average trip duration**: Total travel time and mean travel time
+The following statistics are shown depending on you choices:\
+**The most frequent times of travel**: Most common month, weekday and start hour\
+**the most popular stations and trip**: Most commonly used start station, end station and combination of start station and end station trip\
+**Total and average trip duration**: Total travel time and mean travel time\
 **Statistics on bikeshare users**: Counts of user types, counts of gender, earliest, most recent, and most common year of birth
 
 ## Files used
