@@ -1,15 +1,12 @@
 ### Date created
-Include the date you created this project and README file.
+Created the 2020.06.19
 
 ### Project Title
-Replace the Project Title
+Bikeshare Project 
 
 ### Description
-Describe what your project is about and what it does
+Bikeshare Project from Udacity for [Programming for Data Science with Python](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104)
+Python code to import US bike share data and answer questions about it by computing descriptive statistics. Takes in raw input to create an interactive experience in the terminal to present these statistics.
 
 ### Files used
-Include the files used
-
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+main.py
