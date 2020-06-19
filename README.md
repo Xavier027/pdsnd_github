@@ -1,8 +1,8 @@
 # Bikeshare Project 
 
 ## Description
-Bikeshare Project from Udacity for [Programming for Data Science with Python](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104)
-Python code to import US bike share data from Motivate for popular cities Washington, New York, and Chicago.
+Bikeshare Project from Udacity for [Programming for Data Science with Python](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104)\
+Python code to import US bike share data from Motivate for popular cities Washington, New York, and Chicago.\
 The code answers questions about the data by computing descriptive statistics. Takes in raw input to create an interactive experience in the terminal to present these statistics.
 
 ### Available Filters
@@ -12,7 +12,7 @@ You will asked if you want to filter the data depending on:
 **Weekday**: This filters the data by weekday
 
 ### Results
-You will be asked if you want to see the raw data of the filtered data.
+You will be asked if you want to see the raw data of the filtered data.\
 The following statistics are shown depending on you choices:
 **The most frequent times of travel**: Most common month, weekday and start hour
 **the most popular stations and trip**: Most commonly used start station, end station and combination of start station and end station trip
@@ -53,5 +53,5 @@ $ python main.py
 This project is inspired from [Udacity](https://www.udacity.com). 
 
 ## License
-This code is licensed under the [MIT](https://opensource.org/licenses/mit-license.php) license
+This code is licensed under the [MIT](https://opensource.org/licenses/mit-license.php) license\
 Copyright © 2020, Xavier Vare
